@@ -2,14 +2,14 @@ import { useState } from "react";
 import { Door } from "../components/Door";
 import { Gift } from "../components/Gift";
 import DoorModel from "../model/door";
-import { createDoors } from "../functions/doors";
+import { createDoors, updateDoors } from "../functions/doors";
 
 export default function Home() {
   const [doors, setDoors] = useState(createDoors(6,4))
 
   const renderDoors = () => {
     return doors.map((door => {
-      return <Door key={door.number} value={door} onChange={console.log} />
+      return <Door key={door.number} value={door} onChange={newDoor => setDoors(updateDoors(doors, newDoor))} />
     }))
   }
 

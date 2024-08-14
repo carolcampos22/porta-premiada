@@ -10,6 +10,7 @@
 
 .structure {
     display: flex;
+    flex-direction: column-reverse;
     flex-grow: 1;
     border-left: 7px solid brown;
     border-top: 7px solid brown;
