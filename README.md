@@ -7,6 +7,9 @@ Este é um jogo simples baseado no famoso problema de Monty Hall. No jogo, um jo
 - TypeScript
 - CSS Modules
 
+## Site
+Você pode encontrar o site [neste link](https://porta-premiada-pied.vercel.app/).
+
 ## Como rodar este projeto
 1. Clone este repositório
 
