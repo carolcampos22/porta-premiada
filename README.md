@@ -1,5 +1,5 @@
 # Porta Premiada
-
+Este é um jogo simples baseado no famoso problema de Monty Hall. No jogo, um jogador escolhe a quantidade de portas e seleciona a porta onde o presente estará escondido, enquanto outro jogador tenta adivinhar em qual porta o presente está.
 
 ## Tecnologias
 - React.js
