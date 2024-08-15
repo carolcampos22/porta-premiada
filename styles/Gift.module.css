@@ -8,20 +8,20 @@
 .top {
     width: 7vw;
     height: 3vh;
-    background-color: red;
+    background-color: #8B0000;
 }
 
 .body {
     width: 6vw;
     height: 12vh;
-    background-color: red;
+    background-color: #8B0000;
 }
 
 .ribbon1 {
     position: absolute;
     width: 1.2vw;
     height: 15vh;
-    background-color: white;
+    background-color: #F39C12;
 }
 
 .ribbon2 {
@@ -29,5 +29,5 @@
     top: 7vh;
     width: 6vw;
     height: 1.2vw;
-    background-color: white;
+    background-color: #F39C12;
 }
