@@ -12,9 +12,9 @@
     display: flex;
     flex-direction: column-reverse;
     flex-grow: 1;
-    border-left: 7px solid brown;
-    border-top: 7px solid brown;
-    border-right: 7px solid brown;
+    border-left: 7px solid rgb(118, 5, 5);
+    border-top: 7px solid rgb(118, 5, 5);
+    border-right: 7px solid rgb(118, 5, 5);
     background-color: gray;
     width: 90%;
 }
@@ -24,7 +24,7 @@
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
-    background-color: chocolate;
+    background-color: rgb(133, 60, 7);
     color: white;
     padding: 1.5rem;
 
@@ -41,7 +41,7 @@
     height: 2vw;
     width: 2vw;
     border-radius: 1vw;
-    background-color: brown;
+    background-color: rgb(118, 5, 5);
 }
 
 .floor {
@@ -51,15 +51,15 @@
 }
 
 .selected {
-    border-left: 7px solid green;
-    border-top: 7px solid green;
-    border-right: 7px solid green;
+    border-left: 7px solid blueviolet;
+    border-top: 7px solid blueviolet;
+    border-right: 7px solid blueviolet;
 }
 
 .selected .number {
-    color: green;
+    color: blueviolet;
 }
 
 .selected .doorknob {
-    background-color: green;
+    background-color: blueviolet;
 }

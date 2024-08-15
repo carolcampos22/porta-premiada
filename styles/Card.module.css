@@ -1,0 +1,12 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    height: 35vh;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 3px;
+
+}
