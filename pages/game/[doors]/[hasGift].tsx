@@ -5,7 +5,7 @@ import styles from "../../../styles/Game.module.css"
 import Link from "next/link"
 import { useRouter } from "next/router"
 
-export default function game() {
+export default function Game() {
     const [valid, setValid] = useState(false)
     const [doors, setDoors] = useState([])
 
